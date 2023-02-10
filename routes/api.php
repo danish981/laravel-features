@@ -12,3 +12,7 @@ Route::get('/get-weather-via-http', [MesonetApiController::class, 'getMesonetApi
 Route::get('/get-weather-via-otif-curl', [MesonetApiController::class, 'getMesonetApiResultViaOtifCurl']);
 Route::get('/get-weather-via-curl', [MesonetApiController::class, 'getMesonetApiResultViaCurl']);
 
+// Routes can also be written like 
+// Route::controller(MesonetApiController::class)->group(static function() {
+//     Route::get('/get-weather-via-http', 'getMesonetApiResultViaHttp');
+// });

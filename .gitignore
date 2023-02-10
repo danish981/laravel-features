@@ -23,9 +23,6 @@ docker/
 /docker
 makefile
 docker-compose.yml
-
-
-
 # ______________important docker files and folders __________________________
 
 
