@@ -694,6 +694,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2022-02-23T14:25:13+00:00"
         },
         {
@@ -1246,16 +1247,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.51.0",
+            "version": "v9.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b81123134349a013a738a9f7f715c6ce99d5a414"
+                "reference": "eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b81123134349a013a738a9f7f715c6ce99d5a414",
-                "reference": "b81123134349a013a738a9f7f715c6ce99d5a414",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e",
+                "reference": "eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e",
                 "shasum": ""
             },
             "require": {
@@ -1440,7 +1441,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-07T15:37:18+00:00"
+            "time": "2023-02-14T14:51:14+00:00"
         },
         {
             "name": "laravel/passport",
@@ -1852,16 +1853,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.8",
+            "version": "2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47"
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c493585c130544c4e91d2e0e131e6d35cb0cbc47",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
                 "shasum": ""
             },
             "require": {
@@ -1954,7 +1955,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-10T16:02:17+00:00"
+            "time": "2023-02-15T14:07:24+00:00"
         },
         {
             "name": "league/config",
@@ -2241,16 +2242,16 @@
         },
         {
             "name": "league/oauth2-server",
-            "version": "8.3.6",
+            "version": "8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-server.git",
-                "reference": "28c5441716c10d0c936bd731860dc385d0f6d1a8"
+                "reference": "539f4340c14eca8d44578fd118f6bdc0ad16d1ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/28c5441716c10d0c936bd731860dc385d0f6d1a8",
-                "reference": "28c5441716c10d0c936bd731860dc385d0f6d1a8",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/539f4340c14eca8d44578fd118f6bdc0ad16d1ce",
+                "reference": "539f4340c14eca8d44578fd118f6bdc0ad16d1ce",
                 "shasum": ""
             },
             "require": {
@@ -2317,7 +2318,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-server/issues",
-                "source": "https://github.com/thephpleague/oauth2-server/tree/8.3.6"
+                "source": "https://github.com/thephpleague/oauth2-server/tree/8.4.0"
             },
             "funding": [
                 {
@@ -2325,7 +2326,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-14T19:42:00+00:00"
+            "time": "2023-02-15T16:08:35+00:00"
         },
         {
             "name": "league/uri",
@@ -4272,16 +4273,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v10.5.0",
+            "version": "v10.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "331415b232d60d7c0449de7bde4cb7d4fedf982e"
+                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/331415b232d60d7c0449de7bde4cb7d4fedf982e",
-                "reference": "331415b232d60d7c0449de7bde4cb7d4fedf982e",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
+                "reference": "5fc46f43c743c715cb5edeb7be3383efb7b4bb2e",
                 "shasum": ""
             },
             "require": {
@@ -4327,9 +4328,9 @@
             ],
             "support": {
                 "issues": "https://github.com/stripe/stripe-php/issues",
-                "source": "https://github.com/stripe/stripe-php/tree/v10.5.0"
+                "source": "https://github.com/stripe/stripe-php/tree/v10.6.0"
             },
-            "time": "2023-02-02T21:02:09+00:00"
+            "time": "2023-02-16T23:01:54+00:00"
         },
         {
             "name": "symfony/console",
@@ -7147,16 +7148,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.20.1",
+            "version": "v1.20.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "4b85dbfa3dceeaf7227e3029707562fd60297e86"
+                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/4b85dbfa3dceeaf7227e3029707562fd60297e86",
-                "reference": "4b85dbfa3dceeaf7227e3029707562fd60297e86",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/5ae072b182b1efbec927409e8a3ce3b1078cc42c",
+                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c",
                 "shasum": ""
             },
             "require": {
@@ -7204,7 +7205,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2023-02-08T02:08:37+00:00"
+            "time": "2023-02-08T20:22:21+00:00"
         },
         {
             "name": "mockery/mockery",
