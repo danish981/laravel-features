@@ -21,7 +21,6 @@ Route::get('/register-submit', [PassportAuthController::class, 'passportAuthRegi
 // how chart is rendered
 Route::get('/chart', [PassportAuthController::class, 'showApexChart'])->middleware('auth')->name('apex-chart');
 
-
 // implementing search feature
 Route::get('/search', [SearchController::class, 'index'])->name('search');
 Route::get('/autocomplete', [SearchController::class, 'autocomplete'])->name('autocomplete');
@@ -35,3 +34,6 @@ Route::get('/query-test', [TestController::class, 'testHotelBookingQuery']);
 // implementing stripe
 Route::get('/stripe', [StripePaymentController::class, 'stripe']);
 Route::post('/stripe', [StripePaymentController::class, 'stripePost'])->name('stripe.post');
+
+
+
