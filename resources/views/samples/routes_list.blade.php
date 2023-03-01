@@ -23,7 +23,7 @@
     @foreach ($routeCollection as $value)
         <tr>
             <td>{{ $value->methods()[0] }}</td>
-            <td>{{ $value->uri() }}</td>
+            <td><a href="{{ $value->uri() }}" target="_blank">{{ $value->uri() }}</a></td>
             <td>{{ $value->getName() }}</td>
             <td>{{ $value->getActionName()  }}</td>
         </tr>
