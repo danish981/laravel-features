@@ -14,8 +14,7 @@ Route::get('/', static function () {
     return phpinfo();
 });
 
-
-Route::get('/all-routes', [GlobalController::class, 'index']);
+Route::get('/routes', [GlobalController::class, 'index']);
 
 // postman login get and push
 Route::get('/login', [PassportAuthController::class, 'showLoginForm'])->name('login');
