@@ -11,6 +11,11 @@ class GlobalController extends Controller {
         return view('samples.routes_list', compact('routeCollection'));
     }
 
+    public function getMethodsOnly() {
+        $routeCollection = Route::getRoutes()->get('GET');
+        return view('samples.routes_list', compact('routeCollection'));
+    }
+
     public function sampleDataTable() {
         return view('samples.sample_datatable');
     }

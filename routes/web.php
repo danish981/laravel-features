@@ -11,10 +11,12 @@ use App\Http\Controllers\{GlobalController,
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', static function () {
-    return phpinfo();
+    // return phpinfo();
 });
 
-Route::get('/routes', [GlobalController::class, 'index']);
+// THE ROUTES COLLECTIONS
+Route::get('/', [GlobalController::class, 'index']);
+Route::get('/gets', [GlobalController::class, 'getMethodsOnly']);
 
 // postman login get and push
 Route::get('/login', [PassportAuthController::class, 'showLoginForm'])->name('login');
