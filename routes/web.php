@@ -1,7 +1,9 @@
 <?php
 
-use App\Http\Controllers\{PassportAuthController,
+use App\Http\Controllers\{GlobalController,
+    PassportAuthController,
     PenController,
+    RelationshipsController,
     SearchController,
     StripePaymentController,
     TestController
@@ -11,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', static function () {
     return phpinfo();
 });
+
+
+Route::get('/all-routes', [GlobalController::class, 'index']);
 
 // postman login get and push
 Route::get('/login', [PassportAuthController::class, 'showLoginForm'])->name('login');
@@ -35,5 +40,5 @@ Route::get('/query-test', [TestController::class, 'testHotelBookingQuery']);
 Route::get('/stripe', [StripePaymentController::class, 'stripe']);
 Route::post('/stripe', [StripePaymentController::class, 'stripePost'])->name('stripe.post');
 
-
-
+// Testing polymorphic relations
+Route::get('/one-to-many-polymorphic', [RelationshipsController::class, 'oneToManyMorph']);
