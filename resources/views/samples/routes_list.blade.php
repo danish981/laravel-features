@@ -9,7 +9,7 @@
     <style>
         body {
             background-color: #f4f6f4;
-            font-family: "JetBrains Mono", sans-serif;
+            font-family: Calibri, sans-serif;
         }
 
         table {
