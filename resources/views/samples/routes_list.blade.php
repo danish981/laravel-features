@@ -6,11 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.3/css/jquery.dataTables.min.css">
+    <style>
+        body {
+            background-color: #f4f6f4;
+            font-family: "JetBrains Mono", sans-serif;
+        }
+
+        table {
+            border: 1px solid dimgray;
+            margin: 5px;
+            padding: 5px;
+            box-shadow: 0 10px 25px dimgray;
+            background-color: #e7eaef;
+        }
+
+        .tb-head-footer {
+            background-color: #d6ecd0;
+            color: #442020;
+        }
+
+    </style>
 </head>
-<body style="width: 80%; margin: 0 auto; padding-top: 5rem">
+<body style="width: 90%; margin: 0 auto; padding-top: 5rem">
 
 <table id="example" class="display" width="100%">
-    <thead>
+    <thead class="tb-head-footer">
     <tr>
         <th>HTTP Method</th>
         <th>Route</th>
@@ -31,7 +51,7 @@
 
     </tbody>
 
-    <tfoot>
+    <tfoot class="tb-head-footer">
     <tr>
         <th>HTTP Method</th>
         <th>Route</th>
