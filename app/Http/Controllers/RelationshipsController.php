@@ -11,14 +11,6 @@ class RelationshipsController extends Controller {
 
     public function oneToManyMorph() {
 
-        $post = Post::find(1);
-
-        $comment = Comment::create([
-            'body' => 'hello there, this is the commnet'
-        ]);
-
-        $post->comments()->save($comment);
-
     }
 
 }
